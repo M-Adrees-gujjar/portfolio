@@ -3,49 +3,49 @@ const people = [
       name: 'HTML',
       role: '',
       imageUrl:
-        '/src/assets/Images/html.png',
+        '../assets/Images/html.png',
     },
     {
       name: 'CSS',
       role: '',
       imageUrl:
-        '/src/assets/Images/css.png',
+        '../assets/Images/css.png',
     },
     {
       name: 'JavaScript',
       role: '',
       imageUrl:
-        '/src/assets/Images/JS.png',
+        '../assets/Images/JS.png',
     },
     {
       name: 'BootStrap',
       role: '',
       imageUrl:
-        '/src/assets/Images/bootstrap.png',
+        '../assets/Images/bootstrap.png',
     },
     {
       name: 'React JS',
       role: '',
       imageUrl:
-        '/src/assets/Images/react.png',
+        '../assets/Images/react.png',
     },
     {
       name: 'Node Js',
       role: '',
       imageUrl:
-        '/src/assets/Images/node.png',
+        '../assets/Images/node.png',
     },
     {
       name: 'Express Js',
       role: '',
       imageUrl:
-        '/src/assets/Images/express.png',
+        '../assets/Images/express.png',
     },
     {
       name: 'Mongo DB',
       role: '',
       imageUrl:
-        '/src/assets/Images/mongo-db.png',
+        '../assets/Images/mongo-db.png',
     },
     // More people...
   ]

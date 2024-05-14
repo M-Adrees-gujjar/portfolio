@@ -4,7 +4,7 @@ const products = [
     {
       id: 1,
       name: 'Website Template Layout Design',
-      imageSrc: '/src/assets/Images/seebiz-project.JPG',
+      imageSrc: '../assets/Images/seebiz-project.JPG',
       imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
       price: '$35',
       color: 'Black',
@@ -21,7 +21,6 @@ const products = [
             {products.map((product) => (
               <div key={product.id} className="group relative">
                 <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none lg:h-80 box_hover">
-                  {/* jjjjjj */}
                   <img
                     src={product.imageSrc}
                     alt={product.imageAlt}

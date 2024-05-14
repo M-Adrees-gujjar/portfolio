@@ -4,7 +4,7 @@ const products = [
     {
       id: 1,
       name: 'CRUD Application with Local Storage',
-      imageSrc: '/src/assets/Images/express.png',
+      imageSrc: '../assets/Images/express.png',
       imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
       price: '$35',
       color: 'Black',
