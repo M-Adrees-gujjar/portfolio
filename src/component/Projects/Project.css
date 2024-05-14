@@ -1,0 +1,42 @@
+
+.first_box {
+    height: 100%;
+    width: 30%;
+}
+
+.first_box_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box_hover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    z-index: 3;
+}
+
+.box_hover:hover .box_overlay{
+    transform: scale(1) !important;
+}
+
+.box_overlay {
+    transform: scale(0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(66, 66, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.box_overlay p {
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
