@@ -60,10 +60,10 @@ const people = [
                 Proficient in HTML, CSS, SASS, Bootstrap, React, Node.js, Express, MongoDB, and Mongoose for web development.
             </p>
           </div>
-          <ul role="list" className="grid gap-x-8 gap-y-4 sm:grid-cols-4 grid-cols-2 sm:gap-y-5 xl:col-span-2">
+          <ul role="list" className="grid gap-x-0 gap-y-4 sm:grid-cols-4 grid-cols-2 sm:gap-y-2 xl:col-span-2">
             {people.map((person) => (
               <li key={person.name}>
-                <div className="flex items-center gap-x-6">
+                <div className="flex items-center gap-x-1">
                   <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
