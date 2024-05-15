@@ -3,49 +3,49 @@ const people = [
       name: 'HTML',
       role: '',
       imageUrl:
-        '../assets/Images/html.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/html_wt561r.png',
     },
     {
       name: 'CSS',
       role: '',
       imageUrl:
-        '../assets/Images/css.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/css_in6nyj.png',
     },
     {
       name: 'JavaScript',
       role: '',
       imageUrl:
-        '../assets/Images/JS.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/JS_gunih7.png',
     },
     {
       name: 'BootStrap',
       role: '',
       imageUrl:
-        '../assets/Images/bootstrap.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/bootstrap_n86ye6.png',
     },
     {
       name: 'React JS',
       role: '',
       imageUrl:
-        '../assets/Images/react.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/react_yyvrxq.png',
     },
     {
       name: 'Node Js',
       role: '',
       imageUrl:
-        '../assets/Images/node.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/node_ysdzak.png',
     },
     {
       name: 'Express Js',
       role: '',
       imageUrl:
-        '../assets/Images/express.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/express_ydtxz9.png',
     },
     {
       name: 'Mongo DB',
       role: '',
       imageUrl:
-        '../assets/Images/mongo-db.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/mongo-db_k1avwf.png',
     },
     // More people...
   ]

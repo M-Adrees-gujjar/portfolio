@@ -4,7 +4,7 @@ const products = [
     {
       id: 1,
       name: 'Website Template Layout Design',
-      imageSrc: '../assets/Images/seebiz-project.JPG',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/seebiz-project_x8uo0e.jpg',
       imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
       price: '$35',
       color: 'Black',

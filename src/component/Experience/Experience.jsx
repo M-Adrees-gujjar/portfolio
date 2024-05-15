@@ -13,7 +13,7 @@ const posts = [
         role: 'SeeBiz PVT LTD Lahore',
         href: 'https://see.biz/',
         imageUrl:
-          '/src/assets/Images/seebiz.jpg',
+          'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/seebiz_myuc8v.jpg',
       },
     },
     // More posts...
