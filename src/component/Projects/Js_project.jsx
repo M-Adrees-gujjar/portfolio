@@ -3,12 +3,21 @@ import './Project.css'
 const products = [
     {
       id: 1,
-      name: 'CRUD Application with Local Storage',
-      imageSrc: '../assets/Images/express.png',
-      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      name: 'Simple Weather App',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715794509/js_01_qgatz1.jpg',
+      imageAlt: "Built a weather app using a Weather API. Created a user-friendly interface with HTML, CSS, and Bootstrap. Used JavaScript to add features allowing users to check, search, and manage weather info easily.",
       price: '$35',
       color: 'Black',
       link : 'https://m-adrees-gujjar.github.io/weather_app/'
+    },
+    {
+      id: 1,
+      name: 'CRUD Application with Local Storage',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715794673/js_02_ve3dy4.jpg',
+      imageAlt: "Designed the user interface using HTML and styled it with CSS and Bootstrap. Implemented CRUD functionality using JavaScript to enable users to create,read, update, and delete data entries.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/crud_project/'
     },
     // More products...
   ]
@@ -28,8 +37,8 @@ const products = [
                     className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                   />
                   <div className="box_overlay">
-                      <p>
-                        <a href={product.link}>See More</a>
+                      <p className='see_more'>
+                        <a href={product.link} target='_blank'>See More</a>
                       </p>
                   </div>
                 </div>

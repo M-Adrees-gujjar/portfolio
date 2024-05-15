@@ -1,15 +1,80 @@
 import './Project.css'
 
 const products = [
+  {
+    id: 1,
+    name: 'Website Template Layout Design',
+    imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/seebiz-project_x8uo0e.jpg',
+    imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+    price: '$35',
+    color: 'Black',
+    link : 'https://m-adrees-gujjar.github.io/seebiz-Project/'
+  },
     {
       id: 1,
       name: 'Website Template Layout Design',
-      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/seebiz-project_x8uo0e.jpg',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793276/08_qwcjxv.jpg',
       imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
       price: '$35',
       color: 'Black',
-      link : 'https://m-adrees-gujjar.github.io/seebiz-Project/'
+      link : 'https://m-adrees-gujjar.github.io/project_08/'
     },
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793196/09_ittfej.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_09/'
+    },
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793101/10_j2trl0.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_10/'
+    },
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715792996/11_l0arts.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_11/'
+    },
+    
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793483/07_itt3tx.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_07/'
+    },
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793620/06_uzew9w.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_06/'
+    },
+    {
+      id: 1,
+      name: 'Website Template Layout Design',
+      imageSrc: 'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715793690/05_cdqo1o.jpg',
+      imageAlt: "To create a website template layout ,I utilized my skills in HTML, CSS, SASS and Bootstrap.",
+      price: '$35',
+      color: 'Black',
+      link : 'https://m-adrees-gujjar.github.io/project_05/'
+    },
+    
     // More products...
   ]
 
@@ -27,8 +92,8 @@ const products = [
                     className="h-full w-full object-cover object-center lg:h-full lg:w-full"
                   />
                   <div className="box_overlay">
-                      <p>
-                        <a href={product.link}>See More</a>
+                      <p className='see_more'>
+                        <a href={product.link} target='_blank'>See More</a>
                       </p>
                   </div>
                 </div>
