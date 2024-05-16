@@ -18,7 +18,7 @@
 }
 
 .box_hover:hover .box_overlay {
-    transform: scale(1) !important;
+    transform: scale(1);
 }
 
 .box_overlay {
