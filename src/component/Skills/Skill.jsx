@@ -5,19 +5,19 @@ const people = [
       name: 'HTML',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/html_wt561r.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965261/html_gs4rlb.png',
     },
     {
       name: 'CSS',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/css_in6nyj.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965260/css_p8gvum.png',
     },
     {
       name: 'JavaScript',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/JS_gunih7.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965260/js_i5g1h6.png',
     },
     {
       name: 'BootStrap',
@@ -29,25 +29,25 @@ const people = [
       name: 'React JS',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/react_yyvrxq.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965765/react_fmknln.png',
     },
     {
       name: 'Node Js',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/node_ysdzak.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965764/node_xrw70g.png',
     },
     {
       name: 'Express Js',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788260/express_ydtxz9.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965765/express_k3mky7.png',
     },
     {
       name: 'Mongo DB',
       role: '',
       imageUrl:
-        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715788261/mongo-db_k1avwf.png',
+        'https://res.cloudinary.com/dkzca4hyd/image/upload/v1715965764/mongodb_eixbre.png',
     },
     // More people...
   ]
@@ -65,9 +65,9 @@ const people = [
             {people.map((person) => (
               <li key={person.name} className="group rounded-lg overflow-hidden bg-gray-950 box_border h-20">
                 <div className="flex items-center gap-x-1 p-4 inline_border rounded-md h-full w-full">
-                  <img className="h-12 w-12 rounded-full" src={person.imageUrl} alt="" />
+                  <img className="h-10 w-10 rounded-full" src={person.imageUrl} alt="" />
                   <div>
-                    <h3 className=" text-sm">{person.name}</h3>
+                    <h3 className="lg:text-lg md:text-sm text-xs">{person.name}</h3>
                     <p className="text-sm">{person.role}</p>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <div className="bg-gray-900 pt-4 sm:py-12 text-white">
+    <div className="bg-gray-900 pt-4 sm:py-12 text-white" id='contact'>
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <h2 className="text-center text-lg font-semibold leading-8 text-white">
           Connect with Me Online
