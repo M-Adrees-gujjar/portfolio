@@ -1,0 +1,21 @@
+.fade-enter {
+    opacity: 0;
+    transform: scale(0.8); /* Start from a slightly smaller size */
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transform: scale(1); /* Return to normal size */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit.fade-exit-active {
+    opacity: 0;
+    transform: scale(0.8); /* Shrink down slightly before exiting */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+  }
+  

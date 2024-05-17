@@ -3,6 +3,11 @@
     width: 30%;
 }
 
+
+.main_project {
+    transition: all 0.5s;
+}
+
 .first_box_center {
     display: flex;
     flex-direction: column;

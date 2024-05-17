@@ -1,0 +1,16 @@
+.box_border {
+    height: 80px;
+    transition: all 0.5s;
+}
+
+.box_border:hover {
+    padding: 10px;
+}
+
+.box_border:hover .inline_border {
+    border: 1px solid grey;
+}
+
+.inline_border {
+    border-radius: 5px;
+}

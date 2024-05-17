@@ -1,3 +1,5 @@
+import './Skills.css'
+
 const people = [
     {
       name: 'HTML',
@@ -51,7 +53,7 @@ const people = [
   ]
   export default function Skill() {
     return (
-      <div className="bg-gray-900 text-white py-24 sm:py-32">
+      <div className="bg-gray-900 text-white py-24 sm:py-32" id='skills'>
         <div className="mx-auto grid max-w-7xl gap-x-8 gap-y-20 px-6 lg:px-8 xl:grid-cols-3">
           <div className="max-w-2xl">
             <h2 className="text-3xl font-bold tracking-tight">CORE SKILLS</h2>
@@ -59,19 +61,15 @@ const people = [
               Proficient in HTML, CSS, SASS, Bootstrap, React, Node.js, Express, MongoDB, and Mongoose for web development.
             </p>
           </div>
-          <ul role="list" className="grid gap-x-0 gap-y-4 sm:grid-cols-4 grid-cols-2 sm:gap-y-2 xl:col-span-2">
+          <ul role="list" className="grid gap-x-4 gap-y-4 sm:grid-cols-4 grid-cols-2 sm:gap-y-4 xl:col-span-2">
             {people.map((person) => (
-              <li key={person.name} className="group rounded-lg overflow-hidden bg-black shadow-lg transform transition duration-300 ease-in-out hover:scale-105">
-                <div className="flex items-center gap-x-1 p-4">
-                  <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
+              <li key={person.name} className="group rounded-lg overflow-hidden bg-gray-950 box_border h-20">
+                <div className="flex items-center gap-x-1 p-4 inline_border rounded-md h-full w-full">
+                  <img className="h-12 w-12 rounded-full" src={person.imageUrl} alt="" />
                   <div>
-                    <h3 className="text-base font-semibold">{person.name}</h3>
+                    <h3 className=" text-sm">{person.name}</h3>
                     <p className="text-sm">{person.role}</p>
                   </div>
-                </div>
-                {/* Animation Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 flex items-center justify-center transition duration-300 ease-in-out group-hover:opacity-0">
-                  {/* No text displayed */}
                 </div>
               </li>
             ))}

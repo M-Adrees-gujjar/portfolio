@@ -78,13 +78,10 @@ const products = [
     // More products...
   ]
 
-
-
-  
   export default function Js_project() {
     return (
-      <div className="bg-black text-white">
-        <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-20 lg:max-w-7xl lg:px-8 mb-20">
+      <div className="bg-gray-950 text-white main_project">
+        <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-20 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 h-full my-20">
             {products.map((product) => (
               <div key={product.id} className="group relative bg-black rounded-md shadow-lg overflow-hidden h-80">
