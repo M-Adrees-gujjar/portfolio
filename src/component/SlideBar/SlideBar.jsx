@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
 
 const navigation = [
-  { name: 'HTML/CSS', href: '/' },
-  { name: 'JavaScript', href: '/js' },
-  { name: 'MERN Stack', href: '/mern' },
+  { name: 'Recent Projects', href: '/' },
+  { name: 'All Projects', href: '/js' },
 ];
 
 export default function SlideBar() {

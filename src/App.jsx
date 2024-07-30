@@ -5,7 +5,7 @@ import Skill from "./component/Skills/Skill";
 import SlideBar from "./component/SlideBar/SlideBar";
 import Footer from "./component/Footer/Footer";
 import { Outlet, useLocation } from "react-router-dom";
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import { CSSTransition, TransitionGroup } from "react-transition-group";
 import "./App.css";
 
 function App() {

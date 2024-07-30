@@ -5,8 +5,6 @@ import App from "./App";
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Project from "./component/Projects/Project";
 import Js_project from "./component/Projects/Js_project";
-// import App from "./App";
-// import About from "./component/About";
 
 const router = createBrowserRouter([
   {
@@ -14,14 +12,11 @@ const router = createBrowserRouter([
     element : <App />,
     children : [
       {path : '',
-      element : <Project />
+      element : <Js_project />
     },
     {path : '/js',
-    element : <Js_project />
+    element : <Project />
   },
-  {path : '/mern',
-  element : <Js_project />
-}
     ]
   }
 ])
