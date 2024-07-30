@@ -72,7 +72,7 @@ const posts = [
 
   export default function Experience() {
     return (
-      <div className="bg-black text-white py-2 sm:py-2" id="experience">
+      <div className="bg-black text-text-Two py-2 sm:py-2" id="experience">
         <div className="mx-auto max-w-7xl px-6 lg:px-8 my-14">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">PROFESSIONAL EXPERIENCE</h2>

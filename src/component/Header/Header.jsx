@@ -28,14 +28,14 @@ export default function Header() {
   return (
     <>
       <div className="min-h-full sticky top-0 z-10">
-        <Disclosure as="nav" className="bg-gray-800">
+        <Disclosure as="nav" className="bg-bg-Two">
           {({ open }) => (
             <>
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <h1 className="text-white font-semibold text-3xl">
+                      <h1 className="text-text-Two font-semibold text-3xl">
                         Porfolio
                       </h1>
                     </div>
@@ -48,8 +48,8 @@ export default function Header() {
                             onClick={() => handleItem(item)}
                             className={classNames(
                               item.current
-                                ? "bg-gray-900 text-white"
-                                : "text-gray-300 hover:bg-gray-700 hover:text-white",
+                                ? "bg-text-Three text-white"
+                                : "text-text-Two hover:bg-gray-700 hover:text-text-Two",
                               "rounded-md px-3 py-2 text-sm font-medium"
                             )}
                             aria-current={item.current ? "page" : undefined}
@@ -62,7 +62,6 @@ export default function Header() {
                   </div>
                   <div className="hidden md:block"></div>
                   <div className="-mr-2 flex md:hidden">
-                    {/* Mobile menu button */}
                     <Disclosure.Button className="relative inline-flex items-center justify-center rounded-md bg-gray-800 p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-0.5" />
                       <span className="sr-only">Open main menu</span>

@@ -7,7 +7,7 @@ const navigation = [
 
 export default function SlideBar() {
   return (
-    <div className="bg-gray-950 text-white pt-10" id='projects'>
+    <div className="bg-gray-950 text-text-Two pt-10" id='projects'>
       <header className="">
         <nav className="lg:flex lg:flex-row sm:flex-col items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="mx-auto max-w-2xl lg:mx-0 flex lg:flex-1">
